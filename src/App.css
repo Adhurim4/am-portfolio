@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+
+#light {
+    background-color: #f3ebf6;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#dark{
+    background-color: #0a192f;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#dark .txt:hover{
+    color: #0a192f;
+}
+
+#light .mainText{
+    color: black;
+    background-color:#f3ebf6; ;
+}
+
+#light .mainText2{
+    color: rgb(58, 52, 52);
+}
+
+
+#light .mainText3{
+    color: rgb(58, 52, 52);
+    border: solid 2px rgb(86, 78, 78) ;
+    border-radius: 10%;
+}
+
+#light .mainText3:hover{
+     background-color:  rgb(136 146 176 / var(--tw-text-opacity));  ;
+}
+
+#light .img{
+    width: 5rem;
+    height: auto;
+    padding: 5px;
+}
+
+#light .card{
+        color: #f3ebf6;
+        padding: 5px;
+        border-radius: 20px;
+        background-color: rgb(58, 52, 52);
+}
+
+#light .mainBg{
+     background-color: rgb(58, 52, 52); 
+     color: white;
+}
+
+#light .mainText4{
+    color: rgb(58, 52, 52);
+    font: bold;
+    font-size: 20px;
+}
+ 
+@media only screen and (max-width: 1279px) {
+    .switch {
+      display: none;
+    }
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

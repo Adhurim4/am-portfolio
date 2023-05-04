@@ -1,24 +1,55 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { createContext, useState,Suspense } from "react";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+import Skills from "./components/Skills";
+import Work from "./components/Work";
+import ReactSwitch from "react-switch";      
+import { initReactI18next } from "react-i18next";
 
-function App() {
+import i18n from "i18next";
+import enTranslation from "./locales/en/translation.json";
+import alTranslation from "./locales/al/translation.json";
+
+i18n.use(initReactI18next).init({
+  resources: {
+    en: { translation: enTranslation },
+    al: { translation: alTranslation }
+  },
+  lng: "en",
+  fallbackLng: "en",
+  interpolation: { escapeValue: false }
+});
+
+export const ThemeContext = createContext(null);
+
+ function App() {
+
+ const [theme, setTheme] = useState("dark");
+
+  const toggleTheme = () => {
+    setTheme((curr) => (curr === "light" ? "dark" : "light"));
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Suspense fallback={<div>Loading...</div>}>
+    <ThemeContext.Provider value={{theme, toggleTheme}}>
+      
+    <div className="App" id={theme}>
+    <Navbar />
+    <div className=" hidden xl:flex fixed flex-col top-[29%] left-0 ">
+          <ReactSwitch onChange={toggleTheme}  color="teal" checked={theme === "dark"} />
     </div>
+    <Home/>
+    <About/>
+    <Skills/>
+    <Work/>
+    <Contact/>
+    </div>
+    </ThemeContext.Provider>
+    </Suspense>
   );
 }
 
