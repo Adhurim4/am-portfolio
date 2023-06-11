@@ -8,10 +8,12 @@ import Skills from "./components/Skills";
 import Work from "./components/Work";
 import ReactSwitch from "react-switch";      
 import { initReactI18next } from "react-i18next";
+import { FaSun, FaMoon } from 'react-icons/fa';
 
 import i18n from "i18next";
 import enTranslation from "./locales/en/translation.json";
 import alTranslation from "./locales/al/translation.json";
+import ReactSwitcher from "./components/ReactSwitcher";
 
 i18n.use(initReactI18next).init({
   resources: {
@@ -39,9 +41,7 @@ export const ThemeContext = createContext(null);
       
     <div className="App" id={theme}>
     <Navbar />
-    <div className=" hidden xl:flex fixed flex-col top-[29%] left-0 ">
-          <ReactSwitch onChange={toggleTheme}  color="teal" checked={theme === "dark"} />
-    </div>
+    <ReactSwitcher toggleTheme={toggleTheme} theme={theme} />
     <Home/>
     <About/>
     <Skills/>
