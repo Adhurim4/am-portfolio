@@ -5,11 +5,8 @@ import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
-import Work from "./components/Work";
-import ReactSwitch from "react-switch";      
+import Work from "./components/Work";     
 import { initReactI18next } from "react-i18next";
-import { FaSun, FaMoon } from 'react-icons/fa';
-
 import i18n from "i18next";
 import enTranslation from "./locales/en/translation.json";
 import alTranslation from "./locales/al/translation.json";

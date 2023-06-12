@@ -1,7 +1,7 @@
 import React, { useState} from 'react'
 import LogoA from '../assets/a.png';
 import LogoM from '../assets/m.png';
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook} from 'react-icons/fa';
+import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll';
@@ -24,8 +24,8 @@ const Navbar = () => {
      items-center px-4   text-gray-400 text-xl font-bold'>
         
         <div className='flex'>
-        <img src={LogoA} alt="logo image" style={{width:'40px',  paddingRight:"6px" }} />
-            <img src={LogoM} alt="logo image" style={{width:'40px' }} />
+        <img src={LogoA} style={{width:'40px',  paddingRight:"6px" }} />
+            <img src={LogoM}  style={{width:'40px' }} />
         </div>
   
         {/* Menu */}
