@@ -6,7 +6,9 @@
     "work": "Projektet",
     "contact": "Kontakti",
     "Hi, my name is":"Pershendetje, une jam",
-    "I'm a React Js Developer." : "Une jam React Developer"
- }
+    "I'm a Frontend Developer." : "Une jam Frontend Developer",
+    "As a junior frontend developer, I have experience in building user interfaces for web applications using React. I have a strong understanding of creating single-page applications, web components, and efficiently manipulating the Document Object Model (DOM). Additionally, I am proficient in collaborating with senior developers, writing clean and organized code, and troubleshooting issues to deliver high-quality results." : "Si një junior frontend developer, kam përvojë ne zhvillimin e user interfaces për aplikacionet në ueb duke përdorur React. Unë ka njohuri solide të krijimit të aplikacioneve single page, komponentëve të uebit dhe manipulimit DOM-it. Për më tepër, unë jam i aftë të bashkëpunoj me senior developers, të shkruaj kod të pastër dhe të organizuar dhe te ofroj zgjidhjen e problemeve për të dhënë rezultate me cilësi të lartë.",
+    "View Work": "Projektet e mija"
+}
 
  
