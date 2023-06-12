@@ -6,6 +6,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll';
 import { useTranslation } from "react-i18next";
+import resume from '../assets/CV_Adhurim_Muqiqi.pdf'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -112,14 +113,14 @@ const Navbar = () => {
 
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
                     <a className='flex justify-between items-center w-full text-gray-300'
-                     href='/'>
+                     href='mailto:adhuriim.muqiqi@gmail.com'>
                         Email <HiOutlineMail size={30} />
                     </a>
                 </li>
 
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                     <a className='flex justify-between items-center w-full text-gray-300'
-                     href='/'>
+                     href={resume}>
                         Resume <BsFillPersonLinesFill size={30} />
                     </a>
                 </li>

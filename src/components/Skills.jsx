@@ -6,6 +6,7 @@ import GitHub from '../assets/github.png';
 import MaterialUI from '../assets/material-ui-1.svg';
 import ReactImg from '../assets/react.png';
 import Tailwind from '../assets/tailwind.png';
+import Redux from '../assets/redux.png';
 
 const Skills = () => {
   return (
@@ -33,6 +34,10 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#040c16] card hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto img' src={ReactImg} alt="html icon" />
                     <p className='my-4'>React Js</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] card hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto img' src={Redux} alt="html icon" />
+                    <p className='my-4'>Redux Toolkit</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] card hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto img' src={Tailwind} alt="html icon" />
