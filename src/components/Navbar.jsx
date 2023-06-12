@@ -24,8 +24,8 @@ const Navbar = () => {
      items-center px-4   text-gray-400 text-xl font-bold'>
         
         <div className='flex'>
-        <img src={LogoA} style={{width:'40px',  paddingRight:"6px" }} />
-            <img src={LogoM}  style={{width:'40px' }} />
+        <img src={LogoA} alt="logo 1" style={{width:'40px',  paddingRight:"6px" }} />
+            <img src={LogoM} alt="logo 2" style={{width:'40px' }} />
         </div>
   
         {/* Menu */}
