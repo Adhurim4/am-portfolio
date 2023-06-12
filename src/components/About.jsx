@@ -18,8 +18,8 @@ const About = () => {
                     </div>
                     <div className='max-w-[800px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                         <div className='sm:text-right sm:text-4xl 2xl font-bold'>
-                            <p>{t("I'm a Kosove-based frontend developer ")}</p>
-                            <p>{t(" Nice to meet you. Please take a look around.")}</p> 
+                            <p>{t("I'm a frontend developer based in Kosovo")}</p>
+                            <p>{t("Nice to meet you. Please take a look around.")}</p> 
                         </div>
                         <div>
                             <p className='mainText2'>As a junior frontend developer, I have worked on diverse projects for several companies, gaining valuable experience and refining my programming skills. I am passionate about coding and thrive on challenges, constantly seeking to expand my knowledge and stay up-to-date with the latest industry trends. I am excited to contribute my enthusiasm, creativity, and dedication to new projects and collaborate with experienced professionals in the field.</p>
