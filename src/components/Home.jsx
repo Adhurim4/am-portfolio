@@ -1,4 +1,3 @@
-Copy code
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { useTranslation } from 'react-i18next';
