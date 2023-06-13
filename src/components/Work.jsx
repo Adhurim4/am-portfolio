@@ -1,5 +1,4 @@
 import React from 'react'
-import WorkImg from '../assets/tailwind.png'
 import Crypto from '../assets/cryptoapp.png'
 import MUI from '../assets/MaterialUI.png'
 import Youtube from '../assets/YtClone.png'
