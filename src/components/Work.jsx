@@ -56,11 +56,6 @@ const Work = () => {
                         <div className='pt-8 text-center'>
                             <a href='/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Demo
-                                </button>
-                            </a>
-                            <a href='/'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Code
                                 </button>
                             </a>
@@ -78,30 +73,7 @@ const Work = () => {
                         </span>
 
                         <div className='pt-8 text-center'>
-                            <a href='/'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Demo
-                                </button>
-                            </a>
-                            <a href='/'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Code
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div style={{backgroundImage: `url(${WorkImg})`}}
-                className='card shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center max-auto content-div'>
-                    
-                    <div className='opacity-0 group-hover:opacity-100'>
-                      
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React Js Application
-                        </span>
-
-                        <div className='pt-8 text-center'>
-                            <a href='/'>
+                            <a href='https://bank-figma.netlify.app/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Demo
                                 </button>
@@ -125,7 +97,7 @@ const Work = () => {
                         </span>
 
                         <div className='pt-8 text-center'>
-                            <a href='/'>
+                            <a href='https://news-crypto.netlify.app/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Demo
                                 </button>
@@ -149,7 +121,7 @@ const Work = () => {
                         </span>
 
                         <div className='pt-8 text-center'>
-                            <a href='/'>
+                            <a href='https://social-media-material-ui.netlify.app/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Demo
                                 </button>
@@ -173,11 +145,11 @@ const Work = () => {
                         </span>
 
                         <div className='pt-8 text-center'>
-                            <a href='/'>
+                            {/* <a href='/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Demo
                                 </button>
-                            </a>
+                            </a> */}
                             <a href='https://github.com/Adhurim4/youtube_clone'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Code
@@ -197,7 +169,7 @@ const Work = () => {
                         </span>
 
                         <div className='pt-8 text-center'>
-                            <a href='/'>
+                            <a href='https://realestate-kosova.netlify.app/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Demo
                                 </button>
@@ -221,7 +193,7 @@ const Work = () => {
                         </span>
 
                         <div className='pt-8 text-center'>
-                            <a href='/'>
+                            <a href='https://react-moviie-search.netlify.app/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Demo
                                 </button>
