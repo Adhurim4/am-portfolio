@@ -20,11 +20,11 @@ const Home = () => {
         {t("As a junior frontend developer, I have experience in building user interfaces for web applications using React. I have a strong understanding of creating single-page applications, web components, and efficiently manipulating the Document Object Model (DOM). Additionally, I am proficient in collaborating with senior developers, writing clean and organized code, and troubleshooting issues to deliver high-quality results.")}
         </p>
         <div>
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center mainText3 hover:bg-pink-600 hover:border-pink-600">
+          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center mainText3 hover:bg-pink-600 hover:border-pink-600"
           onClick={() => {
             window.location.href = "https://github.com/Adhurim4";
-            }}
-            {t("View Work")} 
+            }}>
+            {t("View Work")}     
             <HiArrowNarrowRight className="ml-3" />
           </button>
         </div>
