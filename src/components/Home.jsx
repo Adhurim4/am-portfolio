@@ -21,7 +21,10 @@ const Home = () => {
         </p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center mainText3 hover:bg-pink-600 hover:border-pink-600">
-            <a href="https://github.com/Adhurim4">{t("View Work")}</a>
+          onClick={() => {
+            window.location.href = "https://github.com/Adhurim4";
+            }}
+            {t("View Work")} 
             <HiArrowNarrowRight className="ml-3" />
           </button>
         </div>
