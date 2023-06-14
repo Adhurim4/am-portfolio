@@ -6,7 +6,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll';
 import { useTranslation } from "react-i18next";
-import resume from '../uploads/Adhurim_Muqiqi_CV.pdf';
+import resume from '../uploads/CV_Adhurim_Muqiqi.pdf'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
