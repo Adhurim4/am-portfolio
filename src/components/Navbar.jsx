@@ -1,12 +1,12 @@
 import React, { useState} from 'react'
-import LogoA from '../assets/a.png';
-import LogoM from '../assets/m.png';
 import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll';
 import { useTranslation } from "react-i18next";
-import resume from '../uploads/CV_Adhurim_Muqiqi.pdf'
+import resume from '../uploads/CV_Adhurim_Muqiqi.pdf';
+import LogoAM from '../assets/LogoA.png';
+
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -23,8 +23,7 @@ const Navbar = () => {
      items-center px-4   text-gray-400 text-xl font-bold'>
         
         <div className='flex'>
-        <img src={LogoA} alt="logo 1" style={{width:'40px',  paddingRight:"6px" }} />
-            <img src={LogoM} alt="logo 2" style={{width:'40px' }} />
+        <img src={LogoAM} alt="logo 1" style={{width:'80px', marginLeft:'5px',  paddingRight:"6px" }} />
         </div>
   
         {/* Menu */}

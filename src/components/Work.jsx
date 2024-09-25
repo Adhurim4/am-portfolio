@@ -7,6 +7,7 @@ import Movie from '../assets/movie.png'
 import NextBlog from '../assets/next_blog.PNG'
 import BankFigma from '../assets/bank_figma.PNG'
 import ReduxCrud from '../assets/reduxcrud.PNG'
+import DevDive from '../assets/devDive.png'
 
 const Work = () => {
   return (
@@ -43,13 +44,14 @@ const Work = () => {
                     </div>
                 </div>
 
-                <div style={{backgroundImage: `url(${ReduxCrud})`}}
+                
+                <div style={{backgroundImage: `url(${DevDive})`}}
                 className='card shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center max-auto content-div'>
                     
                     <div className='opacity-0 group-hover:opacity-100'>
                       
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            Redux Application
+                            DevDive
                         </span>
 
                         <div className='pt-8 text-center'>
@@ -61,6 +63,7 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
+
 
                 <div style={{backgroundImage: `url(${BankFigma})`}}
                 className='card shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center max-auto content-div'>
@@ -86,6 +89,51 @@ const Work = () => {
                     </div>
                 </div>
 
+                <div style={{backgroundImage: `url(${ReduxCrud})`}}
+                className='card shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center max-auto content-div'>
+                    
+                    <div className='opacity-0 group-hover:opacity-100'>
+                      
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            Redux Application
+                        </span>
+
+                        <div className='pt-8 text-center'>
+                            <a href='/'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Code
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div style={{backgroundImage: `url(${Youtube})`}}
+                className='card shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center max-auto content-div'>
+                    
+                    <div className='opacity-0 group-hover:opacity-100'>
+                      
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            YT Clone Application
+                        </span>
+
+                        <div className='pt-8 text-center'>
+                            {/* <a href='/'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Demo
+                                </button>
+                            </a> */}
+                            <a href='https://github.com/Adhurim4/youtube_clone'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Code
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+
                 <div style={{backgroundImage: `url(${Crypto})`}}
                 className='card shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center max-auto content-div'>
                     
@@ -109,6 +157,32 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
+
+                
+                <div style={{backgroundImage: `url(${Movie})`}}
+                className='card shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center max-auto content-div'>
+                    
+                    <div className='opacity-0 group-hover:opacity-100'>
+                      
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            Movie Application
+                        </span>
+
+                        <div className='pt-8 text-center'>
+                            <a href='https://react-moviie-search.netlify.app/'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Demo
+                                </button>
+                            </a>
+                            <a href='https://github.com/Adhurim4/movie_app'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Code
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
 
                 <div style={{backgroundImage: `url(${MUI})`}}
                 className='card shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center max-auto content-div'>
@@ -134,29 +208,6 @@ const Work = () => {
                     </div>
                 </div>
 
-                <div style={{backgroundImage: `url(${Youtube})`}}
-                className='card shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center max-auto content-div'>
-                    
-                    <div className='opacity-0 group-hover:opacity-100'>
-                      
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            YT Clone Application
-                        </span>
-
-                        <div className='pt-8 text-center'>
-                            {/* <a href='/'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Demo
-                                </button>
-                            </a> */}
-                            <a href='https://github.com/Adhurim4/youtube_clone'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Code
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
 
                 <div style={{backgroundImage: `url(${RealEstate})`}}
                 className='card shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center max-auto content-div'>
@@ -174,30 +225,6 @@ const Work = () => {
                                 </button>
                             </a>
                             <a href='https://github.com/Adhurim4/real-estate-starter'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Code
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div style={{backgroundImage: `url(${Movie})`}}
-                className='card shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center max-auto content-div'>
-                    
-                    <div className='opacity-0 group-hover:opacity-100'>
-                      
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            Movie Application
-                        </span>
-
-                        <div className='pt-8 text-center'>
-                            <a href='https://react-moviie-search.netlify.app/'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Demo
-                                </button>
-                            </a>
-                            <a href='https://github.com/Adhurim4/movie_app'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Code
                                 </button>

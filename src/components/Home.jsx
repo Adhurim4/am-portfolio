@@ -14,10 +14,10 @@ const Home = () => {
           Adhurim Muqiqi
         </h1>
         <h2 className="text-4xl sm:text-6xl font-bold text-[#8892b0]">
-          {t("I'm a Frontend Developer.")}
+          {t("I'm a Software Developer.")}
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px] mainText2">
-        {t("As a junior frontend developer, I have experience in building user interfaces for web applications using React. I have a strong understanding of creating single-page applications, web components, and efficiently manipulating the Document Object Model (DOM). Additionally, I am proficient in collaborating with senior developers, writing clean and organized code, and troubleshooting issues to deliver high-quality results.")}
+        {t("I am a software developer focused on front-end technologies like React JS. I build user-friendly and efficient applications with a strong emphasis on performance and scalability. My experience in back-end development helps me create seamless, integrated solutions. I pride myself on writing clean code and staying up-to-date with the latest industry trends. My passion for innovation and continuous learning keeps me at the forefront of emerging technologies, allowing me to deliver high-performance applications.")}
         </p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center mainText3 hover:bg-pink-600 hover:border-pink-600"
